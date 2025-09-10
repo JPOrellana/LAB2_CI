@@ -21,7 +21,7 @@ def _filter_real(x, name: str) -> Number:
 """Resultado: cuadrado de un número real."""
 def square(n: Number) -> Number:
     n = _filter_real(n, "n")
-    return n + n
+    return n * n
 
 
 """Resultado: factorial de un entero no negativo."""
