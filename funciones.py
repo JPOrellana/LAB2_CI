@@ -41,7 +41,7 @@ def is_prime(n: int) -> bool:
         return False
     if n % 2 == 0:
         return n == 2
-    r = int(math.isqrt(n))
+    r = math.isqrt(n)
     for f in range(3, r + 1, 2):
         if n % f == 0:
             return False
