@@ -5,7 +5,7 @@ from funciones import square, factorial, is_prime, gcd, lcm
 
 def test_square():
     # Casos normales
-    assert square(5) == 25
+    assert square(4) == 16
     assert square(-3) == 9
     # Error: tipo no válido
     with pytest.raises(TypeError):
